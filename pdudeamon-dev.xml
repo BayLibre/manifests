@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="baylibre" fetch="ssh://git@git.baylibre.com/pub" />
+  <remote fetch="ssh://git@github.com/mtitinger" name="mtitinger" />
   <remote name="lava" fetch="https://git.linaro.org/lava" />
   <remote name="kernelci" fetch="https://github.com/kernelci" />
   <remote name="letsencrypt" fetch="https://github.com/letsencrypt" />
   <remote name="baylibre-hub" fetch="https://github.com/baylibre" />
 
-  <default revision="master" remote="baylibre-hub" />
+  <default revision="master" remote="mtitinger" />
 
   <project name="lava-dispatcher" path="SRC/lava-dispatcher" remote="lava" />
   <project name="lava-ci"	  path="SRC/lava-ci" remote="kernelci" />
   <project name="letsencrypt"	  path="SRC/letsencrypt" remote="letsencrypt" />
-  <project name="POWERCI" path="." />
+  <project name="pdudaemon"	  path="SRC/pdudaemon" />
+  <project name="POWERCI" remote="baylibre-hub" path="." />
 
 </manifest>
