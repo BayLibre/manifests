@@ -10,8 +10,9 @@
   <default revision="master" remote="baylibre-hub" />
 
   <project name="lava-dispatcher" path="SRC/lava-dispatcher" remote="lava" />
-  <project name="lava-ci"	  path="SRC/lava-ci" remote="kernelci" />
   <project name="letsencrypt"	  path="SRC/letsencrypt" remote="letsencrypt" />
+
+  <project name="lava-ci"	  path="scripts/lava-ci"  />
   <project name="POWERCI" path="." />
 
 </manifest>
