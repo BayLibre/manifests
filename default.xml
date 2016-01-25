@@ -5,7 +5,7 @@
   <remote name="kernelci" fetch="https://github.com/kernelci" />
 
   <remote name="letsencrypt" fetch="https://github.com/letsencrypt" />
-  <remote name="baylibre-hub" fetch="git@github.com:baylibre" />
+  <remote name="baylibre-hub" fetch="ssh://git@github.com/BayLibre" />
 
   <default revision="master" remote="baylibre-hub" />
 
