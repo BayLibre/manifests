@@ -14,7 +14,7 @@
   <project name="lava-test-definitions" path="SRC/test-definitions" />
   <project name="iio-capture"           path="SRC/iio-capture" />
   <project name="lava-dispatcher"       path="SRC/lava-dispatcher" />
-  <project name="lava-ci"               path="scripts/lava-ci"  />
+  <project name="lava-ci"               path="SRC/lava-ci"  />
   <project name="POWERCI"               path="." />
 
 </manifest>
