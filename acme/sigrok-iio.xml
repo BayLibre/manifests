@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="buildroot" fetch="git://git.buildroot.net" />
+  <remote fetch="ssh://git@github.com/mtitinger" name="mtitinger" />
+  <remote name="sigrok" fetch="git://sigrok.org" />
+  <remote name="baylibre" fetch="ssh://git@git.baylibre.com/pub" />
+  <remote name="baylibre-hub" fetch="https://github.com/baylibre" />
+  <remote name="denx" fetch="git://git.denx.de" />
+
+  <default revision="master" remote="mtitinger" />
+
+  <project  name="libsigrok" remote="baylibre-hub" path="libsigrok" revision="generic-iio-channelgrp" />
+
+  <project  name="libiio"  />
+  <project  name="sigrok-cli" remote="sigrok" />
+  <project  name="libsigrokdecode" remote="sigrok" />
+
+  <project  name="acme/linux" remote="baylibre" path="linux" revision="acme-iio" />
+
+  <project  name="buildroot" remote="buildroot" />
+  <project  name="u-boot" remote="denx" />
+  <project  name="ACME" path="." remote="baylibre-hub" />
+
+</manifest>

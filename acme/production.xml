@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="buildroot" fetch="git://git.buildroot.net" />
+  <remote fetch="ssh://git@github.com/mtitinger" name="mtitinger" />
+  <remote name="baylibre" fetch="ssh://git@git.baylibre.com/pub" />
+  <remote name="baylibre-hub" fetch="ssh://git@github.com/BayLibre" />
+  <remote name="denx" fetch="git://git.denx.de" />
+
+  <default revision="master" remote="baylibre-hub" />
+
+  <project  name="acme/linux" remote="baylibre" path="linux" revision="acme-iio" />
+  <project  name="buildroot" remote="buildroot" />
+  <project  name="u-boot" remote="denx" />
+  <project  name="ACME" path="." />
+</manifest>
