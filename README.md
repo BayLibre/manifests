@@ -1,7 +1,9 @@
-# Baylibre POWERCI repo manifests
 
-` mkdir ~/POWERCI && cd POWERCI`
+# Baylibre POWERCI repo manifests
 
 ` repo init -u https://github.com/BayLibre/manifests.git -m powerci/default.xml`
 
-` repo sync`
+# JUNO build repo manifests
+
+` repo init -u https://github.com/BayLibre/manifests.git -m juno/default.xml`
+
