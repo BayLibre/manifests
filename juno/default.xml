@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="buildroot" fetch="git://git.buildroot.net" />
-  <remote fetch="ssh://git@github.com/mtitinger" name="mtitinger" />
-  <remote name="baylibre-hub" fetch="https://github.com/baylibre" />
-  <remote name="denx" fetch="git://git.denx.de" />
-  <remote name="ARM-software" fetch="https://github.com/ARM-software" />
-  <remote name="linux-next" fetch="https://git.kernel.org/pub/scm/linux/kernel/git/next" />
+  <remote name="denx"		fetch="git://git.denx.de" />
+  <remote name="buildroot"	fetch="git://git.buildroot.net" />
 
-  <default revision="master" remote="baylibre-hub" />
+  <remote name="baylibre"	fetch="git@github.com:baylibre" />
+  <remote name="ARM-software"	fetch="git@github.com:ARM-software" />
+  <remote name="linux"		fetch="git@github.com:torvalds" />
 
-  <project  name="linux-next" remote="linux-next" path="linux" revision="afd2ff9b7e1b367172f18ba7f693dfb62bdcb2dc" />
+  <default revision="master" remote="baylibre" />
+
+  <project  name="linux" remote="linux" path="linux" revision="afd2ff9b7e1b367172f18ba7f693dfb62bdcb2dc" />
   <project  name="arm-trusted-firmware" remote="ARM-software" revision="aaa0567c38ea6f08d68ce64210800b51a8872c13" />
   <project  name="buildroot" remote="buildroot" />
   <project  name="u-boot" remote="denx" />
-  <project  name="JUNO" path="." remote="baylibre-hub" />
+  <project  name="JUNO" path="." />
 </manifest>
