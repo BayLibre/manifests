@@ -3,9 +3,9 @@
   <remote name="denx"		fetch="git://git.denx.de" />
   <remote name="buildroot"	fetch="git://git.buildroot.net" />
 
-  <remote name="baylibre"	fetch="git@github.com:baylibre" />
-  <remote name="ARM-software"	fetch="git@github.com:ARM-software" />
-  <remote name="linux"		fetch="git@github.com:torvalds" />
+  <remote name="baylibre"	fetch="ssh://git@github.com/BayLibre" />
+  <remote name="ARM-software"	fetch="ssh://git@github.com/ARM-software" />
+  <remote name="linux"		fetch="ssh://git@github.com/torvalds" />
 
   <default revision="master" remote="baylibre" />
 
