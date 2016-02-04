@@ -2,10 +2,10 @@
 <manifest>
 
   <remote name="lava" fetch="https://git.linaro.org/lava" />
-  <remote name="kernelci" fetch="git@github.com:kernelci" />
-  <remote name="letsencrypt" fetch="git@github.com:letsencrypt" />
+  <remote name="kernelci" fetch="ssh://git@github.com/kernelci" />
+  <remote name="letsencrypt" fetch="ssh://git@github.com/letsencrypt" />
 
-  <remote name="baylibre-hub" fetch="git@github.com:BayLibre" />
+  <remote name="baylibre-hub" fetch="ssh://git@github.com/BayLibre" />
   <default revision="master" remote="baylibre-hub" />
 
   <project name="letsencrypt"		path="SRC/letsencrypt" remote="letsencrypt" />
