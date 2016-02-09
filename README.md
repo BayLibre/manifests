@@ -24,3 +24,7 @@
 
 ` repo init -u https://github.com/BayLibre/manifests.git -m juno/default.xml`
 
+## ODROID C1p build crater
+
+` repo init -u https://github.com/BayLibre/manifests.git -m odroid/default.xml`
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="yocto" fetch="git://git.yoctoproject.org" />
+  <remote name="baylibre" fetch="ssh://git@github.com/BayLibre" />
+  <remote name="hardkernel" fetch="http://github.com/hardkernel" />
+
+  <default revision="master" remote="baylibre" />
+
+  <project  name="poky" remote="yocto" revision="jethro" />
+  <project  name="u-boot" remote="hardkernel" revision="odroidc-v2011.03" />
+  <project  name="linux" remote="hardkernel" revision="odroidc-3.10.y" />
+  <project  name="ODROID" path="." />
+</manifest>
