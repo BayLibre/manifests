@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="denx"		fetch="git://git.denx.de" />
+  <remote name="buildroot"	fetch="git://git.buildroot.net" />
+
+  <remote name="baylibre"	fetch="ssh://git@github.com/BayLibre" />
+  <remote name="ARM-software"	fetch="ssh://git@github.com/ARM-software" />
+
+  <default revision="master" remote="baylibre" />
+
+  <project  name="arm-trusted-firmware" remote="ARM-software" />
+  <project  name="buildroot" remote="buildroot" />
+  <project  name="JUNO" path="." />
+</manifest>
