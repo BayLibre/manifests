@@ -2,7 +2,7 @@
 <manifest>
   <remote name="yocto" fetch="git://git.yoctoproject.org" />
   <remote name="baylibre" fetch="ssh://git@github.com/BayLibre" />
-  <remote name="hardkernel" fetch="http://github.com/hardkernel" />
+  <remote name="hardkernel" fetch="ssh://git@github.com/hardkernel" />
 
   <default revision="master" remote="baylibre" />
 
