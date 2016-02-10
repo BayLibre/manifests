@@ -5,6 +5,8 @@
   <remote name="linux" fetch="ssh://git@github.com/torvalds" />
   <remote name="denx" fetch="git://git.denx.de" />
 
+  <default revision="master" remote="baylibre" />
+
   <project  name="linux" remote="linux"  />
   <project  name="u-boot" remote="denx" />
   <project  name="COMMON" path="." remote="baylibre" />
