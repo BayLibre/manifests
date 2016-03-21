@@ -12,7 +12,7 @@
   <project name="lava-test-definitions" path="SRC/test-definitions" />
   <project name="iio-capture"           path="SRC/iio-capture" />
   <project name="lava-dispatcher"       path="SRC/lava-dispatcher" />
-  <project name="lava-ci"               path="SRC/lava-ci"  />
+  <project name="lava-ci"               path="SRC/lava-ci"  revision="boot-api-mods" />
   <project name="egctl"                 path="SRC/egctl"  />
   <project name="POWERCI"               path="." />
 
