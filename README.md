@@ -6,13 +6,13 @@
 * enter the project folder
 * call repo init as specified below
 
-## ACME build crater (iio version)
+## ACME build environment (iio version)
 
 ` repo init -u https://github.com/BayLibre/manifests.git -m acme/production.xml`
 
 ` repo sync`
 
-## JUNO build crater
+## JUNO build environment
 
 ` repo init -u https://github.com/BayLibre/manifests.git -m juno/default.xml`
 
