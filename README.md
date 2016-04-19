@@ -10,13 +10,19 @@
 
 ` repo init -u https://github.com/BayLibre/manifests.git -m acme/production.xml`
 
+` repo sync`
+
 ## JUNO build crater
 
 ` repo init -u https://github.com/BayLibre/manifests.git -m juno/default.xml`
 
+` repo sync`
+
 ## POWERCI
 
 ` repo init -u https://github.com/BayLibre/manifests.git -m powerci/default.xml`
+
+` repo sync`
 
 ## Common Source Checkout Folder (optionnal) ##
 
