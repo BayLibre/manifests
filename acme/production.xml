@@ -7,7 +7,7 @@
 
   <default revision="master" remote="baylibre" />
 
-  <project  name="linux" remote="linux"  />
+  <project  name="linux" remote="linux" revision="b562e44f507e863c6792946e4e1b1449fbbac85d" />
   <project  name="acme-utils" path="manufacturing/utils"  />
   <project  name="buildroot" remote="buildroot" />
   <project  name="u-boot" remote="denx" />
