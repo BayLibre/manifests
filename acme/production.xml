@@ -4,6 +4,7 @@
   <remote name="baylibre" fetch="ssh://git@github.com/BayLibre" />
   <remote name="linux" fetch="ssh://git@github.com/torvalds" />
   <remote name="denx" fetch="git://git.denx.de" />
+  <remote name="ymorin" fetch="git://ymorin.is-a-geek.org" />
 
   <default revision="master" remote="baylibre" />
 
@@ -12,4 +13,6 @@
   <project  name="buildroot" remote="buildroot" />
   <project  name="u-boot" remote="denx" />
   <project  name="ACME" path="." />
+  <project  remote="ymorin" name="kconfig-frontends" path="scripts/kconfig-frontends" />
+
 </manifest>
