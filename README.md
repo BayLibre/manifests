@@ -2,9 +2,21 @@
 
 ## Usage instruction ##
 
-* create a project folder  e.g. ~/powerci
+* create a project folder  e.g. ~/ACME
 * enter the project folder
 * call repo init as specified below
+
+## ACME build crater (iio version)
+
+` repo init -u https://github.com/BayLibre/manifests.git -m acme/production.xml`
+
+## JUNO build crater
+
+` repo init -u https://github.com/BayLibre/manifests.git -m juno/default.xml`
+
+## POWERCI
+
+` repo init -u https://github.com/BayLibre/manifests.git -m powerci/default.xml`
 
 ## Common Source Checkout Folder (optionnal) ##
 
@@ -23,25 +35,4 @@ in HOME/JUNO
 
 etc...
 
-## POWERCI
-
-` repo init -u https://github.com/BayLibre/manifests.git -m powerci/default.xml`
-
-## ACME build crater
-
-### production grade (iio)
-
-` repo init -u https://github.com/BayLibre/manifests.git -m acme/production.xml`
-
-### sigrok-iio dev
-
-` repo init -u https://github.com/BayLibre/manifests.git -m acme/sigrok-iio.xml`
-
-## JUNO build crater
-
-` repo init -u https://github.com/BayLibre/manifests.git -m juno/default.xml`
-
-## ODROID C1p build crater
-
-` repo init -u https://github.com/BayLibre/manifests.git -m odroid/default.xml`
 
