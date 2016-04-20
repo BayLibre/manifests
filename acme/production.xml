@@ -13,6 +13,5 @@
   <project  name="buildroot" remote="buildroot" />
   <project  name="u-boot" remote="denx" />
   <project  name="ACME" path="." />
-  <project  remote="ymorin" name="kconfig-frontends" path="scripts/kconfig-frontends" />
 
 </manifest>
