@@ -3,13 +3,16 @@
   <remote name="baylibre" fetch="ssh://git@github.com/BayLibre" />
   <remote name="yocto" fetch="git://git.yoctoproject.org" />
   <remote name="openembedded" fetch="git://github.com/openembedded" />
+  <remote name="koenkooi" fetch="git://github.com/koenkooi" />
+  <remote name="beagleboard" fetch="git://github.com/beagleboard" />
 
   <default revision="master" remote="baylibre" />
 
   <project  name="poky" remote="yocto" revision="jethro" />
-
-  <project  name="meta-baylibre" path="poky/meta-baylibre" />
-  <project  name="meta-ti" path="poky/meta-ti" remote="yocto" />
-  <project  name="meta-openembedded" path="poky/meta-openembedded" remote="openembedded" />
+  <project  name="meta-baylibre" />
+  <project  name="meta-ti" remote="yocto" />
+  <project  name="meta-sigrok" remote="koenkooi" />
+  <project  name="meta-beagleboard" remote="beagleboard" />
+  <project  name="meta-openembedded" path="meta-openembedded" remote="openembedded" />
 
 </manifest>
