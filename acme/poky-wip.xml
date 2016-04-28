@@ -8,7 +8,7 @@
 
   <default revision="master" remote="baylibre" />
 
-  <project  name="poky" remote="yocto" revision="jethro" />
+  <project  name="poky" remote="yocto" />
   <project  name="meta-baylibre" />
   <project  name="meta-ti" remote="yocto" />
   <project  name="meta-sigrok" remote="koenkooi" />
