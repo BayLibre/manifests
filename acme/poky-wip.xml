@@ -12,7 +12,5 @@
   <project  name="meta-baylibre" />
   <project  name="meta-ti" remote="yocto" />
   <project  name="meta-sigrok" remote="koenkooi" />
-  <project  name="meta-beagleboard" remote="beagleboard" />
   <project  name="meta-openembedded" path="meta-openembedded" remote="openembedded" />
-
 </manifest>
