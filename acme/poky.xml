@@ -11,6 +11,5 @@
   <project  name="poky" remote="yocto" />
   <project  name="meta-baylibre" />
   <project  name="meta-ti" remote="yocto" />
-  <project  name="meta-sigrok" remote="koenkooi" />
   <project  name="meta-openembedded" path="meta-openembedded" remote="openembedded" />
 </manifest>
