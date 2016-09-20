@@ -29,4 +29,4 @@ etc...
 ## Yocto Poky version of ACME software ##
 
 If you wish to build using yocto/poky, please follow the guide from
-https://github.com/BayLibre/ACME
+https://github.com/BayLibre-acme/ACME
