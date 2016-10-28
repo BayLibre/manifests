@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="lava" fetch="https://git.linaro.org/lava" />
+  <remote name="kernelci" fetch="ssh://git@github.com/kernelci" />
+  <remote name="letsencrypt" fetch="ssh://git@github.com/letsencrypt" />
+  <remote name="codeaurora" fetch="git://codeaurora.org/quic/kernel" />
+
+  <remote name="baylibre-hub" fetch="ssh://git@github.com/BayLibre" />
+  <default revision="master" remote="baylibre-hub" />
+
+  <project name="letsencrypt"		path="SRC/letsencrypt"	remote="letsencrypt" />
+  <project name="skales"                path="SRC/skales"	remote="codeaurora" />
+  <project name="lava-test-definitions" path="SRC/test-definitions" />
+  <project name="iio-capture"           path="SRC/iio-capture" />
+  <project name="lava-dispatcher"       path="SRC/lava-dispatcher" revision="test-api-baylibre"/>
+  <project name="lava-ci"               path="SRC/lava-ci"  revision="test-api-baylibre" />
+  <project name="egctl"                 path="SRC/egctl"  />
+  <project name="POWERCI"               path="." revision="dev-fabrice"/>
+
+</manifest>
